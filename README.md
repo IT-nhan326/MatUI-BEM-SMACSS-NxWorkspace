@@ -12,4 +12,5 @@
   - This is done by appending two hyphens to the name of the block
   - Example : .btn--white {}
 ### 4. Note:
-  - .nav .nav__listItem .btn--orange is not BEM. Because .nav(Block) will override the style of .btn--orange(Modifier) which must not happen in [BEM].
+  * .nav .nav__listItem .btn--orange is not BEM. 
+  * Because .nav(Block) will override the style of .btn--orange(Modifier) which must not happen in [BEM].
