@@ -2,14 +2,14 @@
 
 ## [BEM Methodolody](https://en.bem.info/methodology/key-concepts/) :  Block | Element | Modifier  - HTML/CSS naming convention
 ### 1. Block : 
-  - Block is the top-level abstraction of a new component 
+  - Block is the top-level abstraction of a new component.
   - Example : .btn {}
 ### 2. Elenment (child item) : 
-  - Element can be placed inside "block", these are denoted by two underscores following the name of the block
+  - Element can be placed inside "block", these are denoted by two underscores following the name of the block.
   - Example : .btn__text {}
 ### 3. Modifier : 
   - Modifiers can manipulate the block, so that we can theme or style that particular component without inflicting changes on a completely unrelated module. 
-  - This is done by appending two hyphens to the name of the block
+  - This is done by appending two hyphens to the name of the block.
   - Example : .btn--white {}
 ### 4. Note:
   * .nav .nav__listItem .btn--orange is not BEM. 
@@ -24,14 +24,18 @@
 
 ### **4. State Rules** : 
   - Are ways to describe how our modules or layouts will look when in a particular state.
-  - Hidden or expanded
-  - Active or inactive
-  - They are about describing how a module or layout looks on screens that are smaller or bigger
-  - Describing how a module might look in different views like the home page or the inside page
+  - Hidden or expanded.
+  - Active or inactive.
+  - They are about describing how a module or layout looks on screens that are smaller or bigger.
+  - Describing how a module might look in different views like the home page or the inside page.
 
 ### **5. Theme Rules** : 
   - Are similar to state rules in that they describe how modules or layouts might look. 
   - Most sites don’t require a layer of theming but it is good to be aware of it.
 
-## [Nx WorkSpace](https://nx.dev/) : Nx is a set of extensible dev tools for monorepos, which helps you develop like Google, Facebook, and Microsoft.
+## [Nx WorkSpace](https://nx.dev/) : Nx is a set of extensible dev tools for monorepos
+### **1. Monorepos** : 
+  * A monorepo (mono repository) is a single repository that stores all of your code and assets for every project.
+  * Monorepo vs. Monolith : A monorepo is a single repository. A monolith is a massive codebase.
+  * Monorepo vs. Multirepo : A monorepo keeps everything in one repository. A multirepo (multiple repositories) typically has one repository for each project. The more projects, the more repositories. A multirepo is also known as polyrepo.
 
