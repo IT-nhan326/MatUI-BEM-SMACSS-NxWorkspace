@@ -35,7 +35,14 @@
 
 ## [Nx WorkSpace](https://nx.dev/) : Nx is a set of extensible dev tools for monorepos
 ### **1. Monorepos** : 
-  * A monorepo (mono repository) is a single repository that stores all of your code and assets for every project.
-  * Monorepo vs. Monolith : A monorepo is a single repository. A monolith is a massive codebase.
-  * Monorepo vs. Multirepo : A monorepo keeps everything in one repository. A multirepo (multiple repositories) typically has one repository for each project. The more projects, the more repositories. A multirepo is also known as polyrepo.
+  1. A monorepo (mono repository) is a single repository that stores all of your code and assets for every project.
+  2. Monorepo vs. Monolith : A monorepo is a single repository. A monolith is a massive codebase.
+  3. Monorepo vs. Multirepo : 
+      * A monorepo keeps everything in one repository. 
+      * A multirepo (multiple repositories) typically has one repository for each project. The more projects, the more repositories. A multirepo is also known as polyrepo.
+  4. Monorepo is best for : 
+      * _Visibility_ : Using a single repository gives you visibility into your code and assets for every project. This helps you manage dependencies.
+      * _Colaboration_ : A single repository makes it easier to collaborate. That’s because everyone can access the code, files, and assets. So, developers can share and reuse assets.
+      * _Speed_ : Using a single repository can help you accelerate development. For instance, you can make atomic changes (one action to make a change across multiple projects).
+
 
